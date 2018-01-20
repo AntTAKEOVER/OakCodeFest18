@@ -1,0 +1,32 @@
+body {
+	text-align: center;	
+	margin: auto;
+	background-color: #222222;
+	color: white;
+	font-family: Verdana;
+}
+table {
+	margin: auto;
+}
+button {
+	border-radius: 5px;
+	border-style: none;
+	background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+}
+input {
+	border-radius: 5px;
+	text-align: center;
+}
+h1, h3 {
+	font-family: "VT323", monospace;
+}

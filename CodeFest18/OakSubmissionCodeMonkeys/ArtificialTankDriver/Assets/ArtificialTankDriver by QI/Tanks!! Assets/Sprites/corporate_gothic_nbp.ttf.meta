@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 00deb4d1cad9a2840b14a9a4e75050c8
+timeCreated: 1516470375
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Corporate Gothic NBP
+  fontNames:
+  - Corporate Gothic NBP
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

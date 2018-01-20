@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>NeuroEvolution : Flappy Bird</title>
+	<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+	<link rel="stylesheet" href="index.css"/>
+</head>
+<body>
+
+	<h1>Flappy Bird Genetic Algorithm - Learning How to Adjust Parameters</h1>
+	<h3> Scroll down, choose a framerate, enter values for the given fields, click submit and sit back.</h3>
+
+	<br>
+
+	<div id="one">
+	<canvas id="flappy" width="500" height="512"></canvas>
+	</div>
+
+	<br>
+
+	<div id="two">
+	<label>Frame Rate: </label>
+	<button onclick="speed(60)">x1</button> 
+	<button onclick="speed(120)">x2</button> 
+	<button onclick="speed(180)">x3</button> 
+	<button onclick="speed(300)">x5</button> 
+	<button onclick="speed(0)">MAX</button> 
+
+	<br>
+	<br>
+
+	<table>
+		<tr>
+			<td><label>Population: </label></td>
+			<td><input type="number" placeholder="Enter population" id="population" value=50></input></td>
+		</tr>
+		<tr>
+			<td><label>Mutation Rate: </label></td>
+			<td><input type="number" placeholder="Enter mutation rate" id="mutationrate" value=0.5></input></td>
+		</tr>
+		<tr>
+			<td><label>Elitism: </label></td>
+			<td><input type="number" placeholder="Enter elitism" id="elitism" value=0.2></input></td>
+		</tr>
+		<tr>
+			<td><label>Number of Children: </label></td>
+			<td><input type="number" placeholder="Enter number of children" id="nochildren" value=1></input></td>
+		</tr>
+		<tr>
+			<td><label>Number of Hidden Layers: </label></td>
+			<td><input type="number" placeholder="Enter number of hidden layers" id="hidden" value=2></input></td>
+		</tr>
+		<tr>
+			<td><label>Crossover Rate: </label></td>
+			<td><input type="number" placeholder="Enter crossover rate" id="crossover" value=0.5></input></td>
+		</tr>
+		<tr>
+			<td colspan="2"><button id="sub">Submit</button></td>
+		</tr>
+	</div>
+
+	<!-- <a href="http://github.com/xviniette/FlappyLearning">GitHub Repository</a> -->
+	<script src = "Neuroevolution.js"></script>
+	<script src = "game.js"></script>
+</body>
+</html>
